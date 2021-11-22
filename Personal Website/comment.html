@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comment</title>
+    <link rel="stylesheet" href="Style/comment.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Slab:wght@300;500&family=Shalimar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <img class="background" src="Style/bg3.jpg" alt="no identity">
+
+    <button class="home_button" onclick="window.location.href='main.html'"><i class="fa fa-home"></i></button>
+
+        <h1> Welcome to Rifat's Personal website </h1>
+        <p> You can tell me your opinion about my demo website.
+            Your pointings are highly perfered by me to achieve my goal.
+        </p>
+
+        <div class="container">   
+
+        <form action="comment.html" method="post">
+            <input type="text" name="name" id="name" placeholder="Please enter your name:" required oninvalid="this.setCustomValidity('Please enter name')">
+            <input type="email" name="email" id="email" placeholder="Please enter your Email:" required oninvalid="this.setCustomValidity('Please enter  your email first')">
+            <textarea name="opinion" id="opinion" cols="30" rows="5" placeholder="Enter your opinion:" required oninvalid="this.setCustomValidity('Add some comment please')"></textarea> 
+            <button class="button" >Submit</button>     
+        </form>
+        <!--
+    <?php
+        if($insert == true){
+        
+              echo "<script type='text/javascript'>alert('comment successfull');</script>";
+        }
+        else{
+              echo "<script type='text/javascript'>alert('Error: $sql <br> $connection->error');</script>";
+        }
+    ?>
+        -->
+    </div>
+</body>
+</html>

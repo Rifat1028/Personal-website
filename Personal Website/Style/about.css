@@ -1,0 +1,253 @@
+.home_button {
+    background-color: black;
+    border: none;
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    width: 10%;
+    float: left;
+    border-radius: 40px;
+    margin: inherit;
+  }
+
+.home_button:hover {
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+  }
+
+.education h1,.hobby h1,.like h1{
+    text-align: center;
+    padding: 25px 600px;
+    background-color: white;
+    margin: -8px;
+
+}
+
+.school p{
+    background-image: url('school.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -450px;
+    min-height:  0px ;
+    text-align: center;
+    font-size: 25px;
+    color: transparent;
+    text-align: left;
+    margin:8px -8px -8px;
+    padding: 80px;
+    transition: all 1s;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.college p{
+    background-image: url('college.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -600px;
+    text-align: left;
+    font-size: 25px;
+    color: transparent;
+    margin:8px -8px -8px;
+    padding: 80px;
+    transition: all 1s;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.university p{
+    background-image: url('vrsty.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -600px;
+    text-align: center;
+    font-size: 25px;
+    color: transparent;
+    margin:8px -8px -8px;
+    padding: 80px;
+    transition: all 1s;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.travel p{
+    background-image: url('travel.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -400px;
+    text-align: center;
+    font-size: 25px;
+    color: transparent;
+    margin:8px -8px -8px;
+    padding: 80px;
+    transition: all 1s;
+    font-weight: bold;
+    border: 1px solid black;
+    
+}
+
+.game p{
+    background-image: url('gamer.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -235px;
+    text-align: right;
+    font-size: 25px;
+    color: transparent;
+    margin:8px -8px -8px;
+    padding: 80px;
+    transition: all 1s ease-in-out;
+    font-weight: bold;
+    border: 1px solid black;
+    
+}
+
+.code p{
+    background-image: url('coder.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -350px;
+    text-align: center;
+    font-size: 25px;
+    color: transparent;
+    margin:8px -8px -8px;
+    padding: 80px;
+    transition: all 1s;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.movie p{
+    background-image: url('watch.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -127px;
+    text-align: center;
+    font-size: 25px;
+    color: transparent;
+    margin:8px -8px -8px;
+    padding: 80px;
+    transition: all 1s;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.learner p{
+    background-image: url('learn.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -300px;
+    text-align: left;
+    font-size: 25px;
+    color: transparent;
+    margin:8px -8px -8px;
+    padding: 80px;
+    transition: all 1s;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.songs p{
+    background-image: url('song.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -400px;
+    text-align: right;
+    font-size: 25px;
+    color: transparent;
+    margin:8px -8px -8px;
+    padding: 80px;
+    transition: all 1s;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.school p:hover{
+    color: black;
+    text-align: left;
+    font-size: 25px;
+    background: rgba(0,60,60,0.5);
+    margin:8px -8px -8px;
+    cursor: pointer;
+ 
+}
+
+.college p:hover{
+    color: black;
+    text-align: right;
+    font-size: 25px;
+    background: rgba(0,0,0,0.5);
+    margin:8px -8px -8px;
+    cursor: pointer;
+}
+
+.university p:hover{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    background: rgba(60,0,0,0.5);
+    margin:8px -8px -8px;
+    cursor: pointer;
+}
+
+.travel p:hover{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.8;
+    margin:8px -8px -8px;
+    cursor: pointer;
+}
+
+.game p:hover{
+    color: white;
+    text-align: right;
+    background: black;
+    font-size: 25px;
+    opacity: 0.9;
+    margin:8px -8px -8px;
+    cursor: pointer;
+}
+
+.code p:hover{
+    color: red;
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.9;
+    margin:8px -8px -8px;
+    cursor: pointer;
+}
+
+.learner p:hover{
+    color: black;
+    text-align: left;
+    font-size: 25px;
+    opacity: 0.9;
+    margin:8px -8px -8px;
+    cursor: pointer;
+}
+
+.movie p:hover{
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.9;
+    margin:8px -8px -8px;
+    cursor: pointer;
+}
+
+
+.songs p:hover{
+    color: black;
+    background: white;
+    text-align: right;
+    font-size: 25px;
+    opacity: 0.9;
+    margin:8px -8px -8px;
+    cursor: pointer;
+}

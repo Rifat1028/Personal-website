@@ -1,0 +1,115 @@
+
+
+.container{
+    max-width: 65%;
+    max-height: 100%;
+    min-height: 100%;
+    
+
+    padding: auto;
+    margin: 150px auto;
+}
+
+h1{
+    text-align: center;
+    color:  rgb(172, 140, 172);;
+    font-family: 'Shalimar', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 10px 580px 10px 580px;
+}
+
+h1:hover{
+    animation: color-change 5s infinite reverse;
+}
+
+p{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    font-family: 'Shalimar', cursive;
+    font-weight: bold;
+}
+
+P:hover{
+    animation: color-change 5s infinite;
+   
+}
+
+@keyframes color-change {
+    0% { color: black; }
+   
+    50% { color:pink; }
+    
+    100% { color: black; }
+}
+
+
+input,textarea{
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 19px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 8px;
+    outline: none;
+    background-color: rgb(172, 140, 172);
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home_button {
+    background-color: black;
+    border: none;
+    color: deeppink;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    width: 10%;
+    float: left;
+    border-radius: 40px;
+  }
+
+  .home_button:hover {
+    background-color: mediumvioletred;
+    color: black;
+    font-weight: bold;
+  }
+
+.button{
+    color:  mediumvioletred;;
+    background-color:black;
+    padding: 8px 12px;
+    font-size: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.button:hover{
+    color:  black;;
+    background-color:mediumvioletred;
+    font-weight: bold;
+    border: 2px solid black ;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0%;
+    left: 0%;
+    min-height: 100%;
+}
+
+.submit_massage{
+    color: mediumvioletred;
+    font-size: 40px;
+
+    font-family: 'Shalimar', cursive;
+}

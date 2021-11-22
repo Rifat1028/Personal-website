@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Fjalla+One&family=Roboto+Slab:wght@300;500&family=Shalimar&display=swap');
+
+.home_button {
+    background-color: black;
+    border: none;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    width: 10%;
+    float: left;
+    border-radius: 40px;
+  }
+
+  .button {
+    background-color: black;
+    border: none;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    text-shadow:2px red;
+    transition: transform 2s linear;
+  
+  }
+
+
+.comment_button{
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    padding: 8px 12px;
+    top: 85%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border: none;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    transition: width 2s, height 2s;
+}
+
+.contact_button,.about_button{
+    color:  red;;
+    background-color:black;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+  
+.contact_button:hover,.about_button:hover {
+    background-color: cyan;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+  }
+
+  .home_button:hover {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+  }
+
+.button:hover {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    border: 5px solid black;
+    transform: rotateY(360deg);
+  }
+
+  .comment_button:hover {
+    background-color: cyan;
+    color: black;
+    border: 5px solid black;
+    width: 90px;
+    height: 90px;
+  }  
+
+
+h1{
+    margin: 350px 650px 100px 650px;
+    padding: auto;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Fjalla One', sans-cursive;
+}
+
+
+h1:hover{
+    animation: color-change 15s infinite;
+}
+
+h2{
+    text-align: center;
+    color:  cyan;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Shalimar', cursive;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    padding: auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+h4{
+    margin: 120px 350px 50px 350px;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'Fjalla One', sans-cursive;
+}
+p{
+    text-align: center;
+    font-size: 32px;
+    padding: auto;
+    margin: 20px 600px 100px;
+    font-family: 'Estonia', cursive;
+    color: cyan;
+    
+}
+
+@keyframes color-change {
+    0% { color: darkslateblue; }
+    12.5% { color: royalblue; }
+    25% { color:blue; }
+    37.5% { color: cyan; }
+    50% { color:white; }
+    62.5% { color: cyan; }
+    75% { color: blue; }
+    87.5% { color: royalblue; }
+    100% { color: darkslateblue; }
+}
+
+.contact_background{
+    background-image: url('bg2.jpg');
+    width: 100%;
+    min-height: 100%;
+    margin: -8px -8px -8px -8px;
+    position: absolute;
+    z-index: -1;
+    background-size:cover ;
+    
+}
+
+.button_container{
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    padding: 8px 12px;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button_container2{
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    padding: auto;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-right:16px;
+}
+
+.home_background{
+    width: 100%;
+    min-height: 100%; ;
+    margin: -8px -8px -8px -8px;
+    position: absolute;
+    z-index: -1;
+    background-size:cover ;
+}
+
+
+
+.up{
+    
+    background-image: url('bg.jpg');
+    margin: -8px -9px;
+    padding: 7px;
+    border: 2px solid black;
+    background-size:cover ;
+    background-position: top left ;
+    height: 683px;   
+     
+}
